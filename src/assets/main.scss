@@ -17,8 +17,14 @@ main {
   display: block;
   width: 350px;
   height: 500px;
-  background-color: white;
+  background: rgb(1, 0, 61);
+  background: linear-gradient(180deg, rgba(1, 0, 61, 1) 0%, rgba(0, 81, 191, 1) 100%);
   z-index: 8;
   border-radius: 22px;
   box-shadow: 0 0 10px rgba(133, 133, 133, 0.5);
+}
+
+.loading {
+  width: 100%;
+  margin-top: end;
 }
